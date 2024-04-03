@@ -1,5 +1,9 @@
 package com.example.historyapp
 
+//Taahir Hoosen
+//ST10445196
+//YouTube link-
+
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -57,16 +61,16 @@ class MainActivity : AppCompatActivity() {
         }
 
         val historicalFigure = when (age) {
-            95 -> "Nelson Mandela"
-            90 -> "Desmond Tutu"
-            81 -> "Winnie Mandela"
-            30 -> "Steve Biko"
-            76 -> "Miriam Makeba"
-            84 -> "Thomas Edison"
-            75 -> "Alexander Graham Bell"
-            86 -> "Nikola Tesla"
-            67 -> "Leonardo da Vinci"
-            66 -> "Marie Curie"
+            95 -> "Nelson Mandela - Fought against apartheid in South Africa, becoming the country's first black president."
+            90 -> "Desmond Tutu - Archbishop and human rights activist who played a significant role in ending apartheid in South Africa."
+            81 -> "Winnie Mandela - Anti-apartheid activist and politician, known for her resilience and activism alongside Nelson Mandela."
+            30 -> "Steve Biko - Prominent anti-apartheid activist and founder of the Black Consciousness Movement in South Africa."
+            76 -> "Miriam Makeba - Renowned South African singer and civil rights activist, known as Mama Africa."
+            84 -> "Thomas Edison - Prolific American inventor, known for inventions such as the phonograph and the practical electric light bulb."
+            75 -> "Alexander Graham Bell -  Scottish-born inventor, credited with inventing the telephone."
+            86 -> "Nikola Tesla -  Serbian-American inventor and electrical engineer, known for his contributions to alternating current electricity."
+            67 -> "Leonardo da Vinci - Italian polymath, renowned for his artistic masterpieces and groundbreaking scientific innovations."
+            66 -> "Marie Curie - Polish-born physicist and chemist, famous for her pioneering research on radioactivity."
             else -> null
         }
 
